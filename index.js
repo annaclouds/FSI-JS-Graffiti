@@ -12,6 +12,7 @@ let dogImages = document.querySelectorAll('.dog-image');    // selecting all the
 // 4. Modify the styling of all elements.
 for (let i = 0; i < dogImages.length; i++) {                // using a loop to change the styling of each element in the array.
     dogImages[i].style.borderRadius = '50px';
+    dogImages[i].style.transform = 'scaleY(-1)';            // flipped all the dog images upside down.
 };
 
 // 5. Research New Ways of Styling with JavaScript
