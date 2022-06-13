@@ -15,3 +15,14 @@ for (let i = 0; i < dogImages.length; i++) {                // using a loop to c
 };
 
 // 5. Research New Ways of Styling with JavaScript
+
+// making dogs' names align to the left.
+let dogNames = document.querySelectorAll('.dog-name');      // selecting all dog names.
+
+for (let i = 0; i < dogNames.length; i++) {                // using a loop to change each dogNames text aligned to the left.
+    dogNames[i].style.textAlign = 'left';
+};
+
+// changing the color of the footer text.
+let footerText = document.querySelector('.footer');
+footerText.style.color = 'blue';
